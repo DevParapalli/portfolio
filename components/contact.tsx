@@ -14,7 +14,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="max-w-4xl mx-auto text-center mb-16"
+        className="max-w-4xl mx-auto text-center mb-16 relative"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-6">Get in Touch</h2>
         <p className="text-lg text-gray-300 mb-8">
@@ -41,7 +41,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="max-w-xl mx-auto space-y-6"
+        className="max-w-xl mx-auto space-y-6 relative"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Input
@@ -69,10 +69,10 @@ export default function Contact() {
           Send Message
         </Button>
       </motion.form>
-      <div className="mt-16 text-center">
+      <div className="mt-16 text-center relative">
         <p className="text-gray-300 flex items-center justify-center">
           <MapPin className="w-5 h-5 mr-2" />
-          401, Akshay Heights III, Bharat Nagar, Amravati Road, Nagpur, Maharashtra, India - 440001
+          Nagpur, Maharashtra, India - 440001
         </p>
       </div>
     </section>

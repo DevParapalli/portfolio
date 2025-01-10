@@ -3,6 +3,9 @@
 import { motion, useScroll, useTransform } from "framer-motion"
 import Link from "next/link"
 import { Github, Linkedin, Mail } from 'lucide-react'
+import localFont from "next/font/local"
+
+const duneRise = localFont({src: "../lib/fonts/Dune_Rise.woff2"})
 
 export default function Navbar() {
   const { scrollY } = useScroll()
@@ -11,12 +14,12 @@ export default function Navbar() {
   
   return (
     <motion.div
-      className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full px-4"
+      className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full px-4 min-w-fit"
       style={{ width, top }}
     >
       <div className="bg-black/80 backdrop-blur-sm border border-white/10 rounded-lg p-4 mt-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-lg font-bold">
+          <Link href="/" className={`text-lg font-bold pr-4 ${duneRise.className}`}>
             DP
           </Link>
           <div className="flex items-center gap-6">
