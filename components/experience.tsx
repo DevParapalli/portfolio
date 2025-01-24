@@ -9,11 +9,9 @@ const experiences = [
     location: "Nagpur, Maharashtra, India",
     period: "Jun 2024 — Aug 2024",
     description: [
-      "Creating AI-powered web application, increasing content organization efficiency by 40%",
-      "Leading development of full-stack applications using MERN stack and Next.js",
-      "Implementing AI models to enhance product functionality",
-      "Developed robust content scraping framework for multiple data formats",
-      "Collaborating with founding team on feature development",
+      "Creation of a new AI-powered application, aimed at increasing content organization of links, videos etc.",
+      "Led the development of full-stack applications using Next.js and Python with full CI/CD pipelines.",
+      "Developed a robust content scraping framework, capable of integrating with any data type.",
     ],
   },
   {
@@ -22,8 +20,8 @@ const experiences = [
     location: "Remote",
     period: "Mar 2023 — Apr 2023",
     description: [
-      "Integrated Razorpay and Stripe payment gateways, reducing checkout friction by 80%",
-      "Implemented e-commerce functionalities, increasing user retention by 20%",
+      "Integrated Razorpay and Stripe payment gateways into a multi-faceted system.",
+      "Implemented e-commerce functionalities including discount codes and shopping carts.",
       "Integrated Firebase for authentication and game request feature",
     ],
   },
