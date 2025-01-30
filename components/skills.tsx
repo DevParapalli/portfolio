@@ -86,7 +86,7 @@ export default function Skills() {
         className="max-w-7xl mx-auto px-4 mb-12"
       >
         <div className="text-blue-500 font-mono mb-4">{'<skills>'}</div>
-        <h2 className="text-4xl md:text-5xl font-bold">Technical Expertise</h2>
+        <h2 className="text-4xl md:text-5xl font-bold">Technical Acumen</h2>
       </motion.div>
       <div className="space-y-12">
         {skillCategories.map((category, index) => (
