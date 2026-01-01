@@ -4,25 +4,47 @@ import { motion } from "framer-motion"
 
 const experiences = [
   {
-    title: "Software Engineering Intern",
+    title: "Solutions Architect - Cloud & AI",
+    company: "Tata Consultancy Services Limited",
+    location: "Hyderabad, Telangana, India",
+    period: "Jul 2025 — Present",
+    description: [
+      "GenAI CoE: Developing novel Generative AI technologies including CloudOpsBot for automating CloudOps tasks and build failure summarizer with auto-fixing capabilities. Evaluated and deployed LLMs ranging from 7B to 70B parameters.",
+      "Cisco Capital: Established AI adoption program and delivered 3 production use-cases. Developed AI-powered Report Generator for structured/transactional data supporting SQL and NoSQL databases. Implemented Agentic AI Automation workflow integrating OracleDB, Docker, Jenkins, OpenShift and Kubernetes.",
+      "Nokia: Delivered end-to-end cloud migration of manufacturing processes from on-premises SAP ME to GCP using Assess-Migrate-Manage workflow with cloud-native scalable services.",
+      "Zebra: Architected AI-workflows for large-scale PO and Invoice ingestion with source merging, automating processing of handwritten, scanned and digital documents.",
+    ],
+  },
+  {
+    title: "GenAI & Backend Development Intern",
     company: "PolymathAI",
     location: "Nagpur, Maharashtra, India",
     period: "Jun 2024 — Aug 2024",
     description: [
-      "Creation of a new AI-powered application, aimed at increasing content organization of links, videos etc.",
-      "Led the development of full-stack applications using Next.js and Python with full CI/CD pipelines.",
-      "Developed a robust content scraping framework, capable of integrating with any data type.",
+      "Architected parallelized video processing pipeline reducing processing time from 3 minutes to 10 seconds per video (95% improvement) using pipeline-parallel inference techniques.",
+      "Scaled platform to support 100 concurrent users and successfully processed 14,600 videos.",
+      "Built complete pipeline for video bite creation and multi-modal content understanding, enabling interactive educational content generation.",
     ],
   },
   {
-    title: "Software Engineering Intern",
+    title: "Software Development Engineer Intern",
     company: "Gameathon",
     location: "Remote",
-    period: "Mar 2023 — Apr 2023",
+    period: "Feb 2023 — Apr 2023",
     description: [
-      "Integrated Razorpay and Stripe payment gateways into a multi-faceted system.",
-      "Implemented e-commerce functionalities including discount codes and shopping carts.",
-      "Integrated Firebase for authentication and game request feature",
+      "Developed e-commerce features including discount code engine and multi-processor payment integration using React, Express, MongoDB, and TailwindCSS.",
+      "Resolved critical inventory management and order processing bottlenecks affecting platform scalability.",
+    ],
+  },
+  {
+    title: "Independent Technical Consultant",
+    company: "Freelance Engagements",
+    location: "Remote",
+    period: "2020 — 2024",
+    description: [
+      "Delivered 10+ complete software solutions across web applications, mobile development, automation systems, and data migration projects.",
+      "Built production systems including landing pages with Three.js animations, inventory management systems, e-commerce platforms, web scraping workflows, and RAG-powered conversational interfaces.",
+      "Identified security vulnerabilities earning bug bounties for critical findings in 3 Android applications and 2 web platforms.",
     ],
   },
 ]

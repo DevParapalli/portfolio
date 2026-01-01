@@ -3,13 +3,15 @@ import Hero from "@/components/hero"
 import Projects from "@/components/projects"
 import Experience from "@/components/experience"
 import Skills from "@/components/skills"
+import Certifications from "@/components/certifications"
+import Publications from "@/components/publications"
 import Contact from "@/components/contact"
 import CustomCursor from "@/components/custom-cursor"
 import Navbar from "@/components/navbar"
 
 export const metadata: Metadata = {
-  title: "Devansh Parapalli - Web and Systems Developer",
-  description: "Computer Science Student specializing in Web and Systems Development",
+  title: "Devansh Parapalli - Solutions Architect | Cloud & AI",
+  description: "Solutions Architect specializing in Cloud & AI integrations with 5+ years of experience",
 }
 
 export default function Page() {
@@ -22,6 +24,8 @@ export default function Page() {
       <Projects />
       <Experience />
       <Skills />
+      <Certifications />
+      <Publications />
       <Contact />
     </main>
   )

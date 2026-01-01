@@ -5,32 +5,38 @@ import { motion } from "framer-motion"
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["Python", "C/C++", "JavaScript/TypeScript", "Rust", "SQL", "Shell Scripting", "Python", "C/C++", "JavaScript/TypeScript", "Rust", "SQL", "Shell Scripting", "Python", "C/C++", "JavaScript/TypeScript"],
+    skills: ["Python (5+ years)", "JavaScript/TypeScript (4+ years)", "C/C++ (3+ years)", "Rust", "Go", "Java", "Zig", "SQL", "Shell Scripting", "Python (5+ years)", "JavaScript/TypeScript (4+ years)", "C/C++ (3+ years)", "Rust", "Go", "Java", "Zig", "SQL", "Shell Scripting", "Python (5+ years)", "JavaScript/TypeScript (4+ years)", "C/C++ (3+ years)", "Rust", "Go", "Java", "Zig", "SQL", "Shell Scripting",],
     direction: 1,
     speed: 50,
   },
   {
     title: "Web Technologies",
-    skills: ["React", "Svelte", "Next.js", "Node.js", "Django", "FastAPI", "HTML/CSS", "RESTful APIs", "Web Scraping", "React", "Svelte", "Next.js", "Node.js", "Django", "FastAPI", "HTML/CSS", "RESTful APIs", "Web Scraping", "React", "Svelte", "Next.js", "Node.js", "Django", "FastAPI", "HTML/CSS", "RESTful APIs", "Web Scraping"],
+    skills: ["React", "Svelte", "Next.js", "Node.js", "Express", "Django", "FastAPI", "HTML/CSS", "TailwindCSS", "Three.js", "PWA", "RESTful APIs", "WebSockets", "Web Scraping", "React", "Svelte", "Next.js", "Node.js", "Express", "Django", "FastAPI", "HTML/CSS", "TailwindCSS", "Three.js", "PWA", "RESTful APIs", "WebSockets", "Web Scraping", "React", "Svelte", "Next.js", "Node.js", "Express", "Django", "FastAPI", "HTML/CSS", "TailwindCSS", "Three.js", "PWA", "RESTful APIs", "WebSockets", "Web Scraping",],
     direction: -1,
     speed: 45,
   },
   {
     title: "AI & ML",
-    skills: ["NLP", "Machine Learning", "Deep Learning", "Generative AI", "PyTorch", "Large Language Models", "NLP", "Machine Learning", "Deep Learning", "Generative AI", "PyTorch", "Large Language Models", "NLP", "Machine Learning", "Deep Learning", "Generative AI", "PyTorch", "Large Language Models"],
+    skills: ["LangChain", "RAG Architectures", "Vector Databases", "NLP", "NLP Pipelines", "LLM Integration", "Machine Learning", "Deep Learning", "vLLM", "Ollama", "PyTorch", "Generative AI", "Large Language Models", "Azure OpenAI", "Vertex AI", "AWS Bedrock", "LangChain", "RAG Architectures", "Vector Databases", "NLP", "NLP Pipelines", "LLM Integration", "Machine Learning", "Deep Learning", "vLLM", "Ollama", "PyTorch", "Generative AI", "Large Language Models", "Azure OpenAI", "Vertex AI", "AWS Bedrock", "LangChain", "RAG Architectures", "Vector Databases", "NLP", "NLP Pipelines", "LLM Integration", "Machine Learning", "Deep Learning", "vLLM", "Ollama", "PyTorch", "Generative AI", "Large Language Models", "Azure OpenAI", "Vertex AI", "AWS Bedrock",],
     direction: 1,
     speed: 60,
   },
   {
     title: "Cloud & DevOps",
-    skills: ["Docker/Docker-Compose", "AWS", "GCP", "Firebase", "Supabase", "CI/CD", "Terraform", "Docker/Docker-Compose", "AWS", "GCP", "Firebase", "Supabase", "CI/CD", "Terraform", "Docker/Docker-Compose", "AWS", "GCP", "Firebase", "Supabase", "CI/CD", "Terraform"],
+    skills: ["GCP (Certified)", "AWS", "Docker", "Docker-Compose", "Kubernetes", "Firebase", "Supabase", "Terraform", "Jenkins", "GitHub Actions", "CI/CD", "Cloud Run", "Compute Engine", "EC2", "S3", "EKS", "ECS", "OpenShift", "GCP (Certified)", "AWS", "Docker", "Docker-Compose", "Kubernetes", "Firebase", "Supabase", "Terraform", "Jenkins", "GitHub Actions", "CI/CD", "Cloud Run", "Compute Engine", "EC2", "S3", "EKS", "ECS", "OpenShift", "GCP (Certified)", "AWS", "Docker", "Docker-Compose", "Kubernetes", "Firebase", "Supabase", "Terraform", "Jenkins", "GitHub Actions", "CI/CD", "Cloud Run", "Compute Engine", "EC2", "S3", "EKS", "ECS", "OpenShift",],
     direction: -1,
     speed: 55,
   },
   {
-    title: "Other",
-    skills: ["Git", "Linux", "WebGL", "Three.js", "IoT (Arduino, ESP32, Raspberry Pi)", "Robotics Programming", "Git", "Linux", "WebGL", "Three.js", "IoT (Arduino, ESP32, Raspberry Pi)", "Robotics Programming", "Git", "Linux", "WebGL", "Three.js", "IoT (Arduino, ESP32, Raspberry Pi)", "Robotics Programming", ],
+    title: "Databases",
+    skills: ["PostgreSQL", "pgVector", "MongoDB", "SQLite", "OracleDB", "Query Optimization", "Schema Design", "PostgreSQL", "pgVector", "MongoDB", "SQLite", "OracleDB", "Query Optimization", "Schema Design", "PostgreSQL", "pgVector", "MongoDB", "SQLite", "OracleDB", "Query Optimization", "Schema Design",],
     direction: 1,
+    speed: 50,
+  },
+  {
+    title: "Other",
+    skills: ["Git", "Linux", "WebGL", "Three.js", "Selenium", "Web Scraping", "IoT (Arduino, ESP32, Raspberry Pi)", "Robotics Programming", "Git", "Linux", "WebGL", "Three.js", "Selenium", "Web Scraping", "IoT (Arduino, ESP32, Raspberry Pi)", "Robotics Programming", "Git", "Linux", "WebGL", "Three.js", "Selenium", "Web Scraping", "IoT (Arduino, ESP32, Raspberry Pi)", "Robotics Programming",],
+    direction: -1,
     speed: 50,
   },
 ]

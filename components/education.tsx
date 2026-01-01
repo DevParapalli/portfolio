@@ -23,9 +23,9 @@ export default function Education() {
           Government College of Engineering, Nagpur
         </h3>
         <p className="text-lg text-gray-400 mb-2">
-          Bachelor's of Technology, Computer Science and Mathematics
+          Bachelor's of Technology, Computer Science and Engineering
         </p>
-        <p className="text-sm text-gray-500 mb-4">Dec 2021 — Present</p>
+        <p className="text-sm text-gray-500 mb-4">Dec 2021 — Jun 2025</p>
         <div className="space-y-4">
           <p className="text-gray-300">CGPA: 8.28/10.0</p>
           <div>

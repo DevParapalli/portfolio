@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 bg-black pt-20">
       <div className="absolute inset-0 bg-gradient-to-b from-blue-500/10 via-purple-500/10 to-transparent pointer-events-none" />
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -36,7 +36,7 @@ export default function Hero() {
             transition={{ delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-400 max-w-xl mb-8 font-mono"
           >
-            Exploring the intersection of AI and web development
+            Solutions Architect specializing in Cloud & AI integrations
           </motion.div>
           <motion.div
             initial={{ y: 20, opacity: 0 }}
@@ -45,7 +45,7 @@ export default function Hero() {
             className="flex items-center text-sm text-gray-400 font-mono"
           >
             <MapPin className="w-4 h-4 mr-2" />
-            <p>Nagpur, Maharashtra, India</p>
+            <p>Hyderabad, Telangana, India</p>
           </motion.div>
         </div>
       </motion.div>
