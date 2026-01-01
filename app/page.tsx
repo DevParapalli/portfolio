@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <main className="min-h-screen bg-black text-white">
       <CustomCursor />
-      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/20 via-black to-black pointer-events-none" />
+
       <Navbar />
       <Hero />
       <Projects />

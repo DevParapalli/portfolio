@@ -2,18 +2,19 @@
 
 import { MapPin } from 'lucide-react'
 import { motion } from "framer-motion"
+import WaveBackground from './wave-background'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 bg-black pt-20">
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-500/10 via-purple-500/10 to-transparent pointer-events-none" />
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 pt-20">
+      <WaveBackground className="absolute inset-0 opacity-90" />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
         className="relative z-10"
       >
-        <div className="text-left max-w-4xl mx-auto">
+        <div className="text-left text-xl md:text-2xl max-w-4xl mx-auto">
           <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -34,7 +35,7 @@ export default function Hero() {
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="text-xl md:text-2xl text-gray-400 max-w-xl mb-8 font-mono"
+            className="text-xl md:text-2xl text-gray-300 max-w-xl mb-8 font-mono"
           >
             Solutions Architect specializing in Cloud & AI integrations
           </motion.div>
@@ -42,14 +43,14 @@ export default function Hero() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6 }}
-            className="flex items-center text-sm text-gray-400 font-mono"
+            className="flex items-center text-sm text-gray-300 font-mono"
           >
             <MapPin className="w-4 h-4 mr-2" />
             <p>Hyderabad, Telangana, India</p>
           </motion.div>
         </div>
       </motion.div>
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-gray-500 font-mono text-sm">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-gray-300 font-mono text-sm">
         Scroll to explore
       </div>
     </section>

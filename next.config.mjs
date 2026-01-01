@@ -21,6 +21,13 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.glsl$/,
+      type: 'asset/source',
+    });
+    return config;
+  },
 }
 
 mergeConfig(nextConfig, userConfig)

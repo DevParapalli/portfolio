@@ -49,9 +49,12 @@ const experiences = [
   },
 ]
 
+// const low = new THREE.Vector3(43, 75, 235);
+// const high = new THREE.Vector3(213, 51, 248);
+
 export default function Experience() {
   return (
-    <section className="py-20 px-4 bg-blue-950">
+    <section className="py-20 px-4 bg-[rgb(43,75,235)]/30">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

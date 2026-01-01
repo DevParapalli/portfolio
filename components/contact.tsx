@@ -44,7 +44,7 @@ export default function Contact() {
       <div className="mt-16 text-center relative">
         <p className="text-gray-300 flex items-center justify-center">
           <MapPin className="w-5 h-5 mr-2" />
-          Nagpur, Maharashtra, India - 440001
+          Hyderabad, Telangana, India - 500032
         </p>
       </div>
     </section>
